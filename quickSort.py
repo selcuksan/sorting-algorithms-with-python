@@ -18,7 +18,6 @@ def quick_sort(arr, start, end):
 
     # Pivotu sona alıyoruz.
     swap(arr, pivot_index, end)
-    # Liste
     start_pointer = start
     for i in range(start, end):
         if arr[i] < pivot_element:
